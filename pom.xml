@@ -84,7 +84,7 @@
                         <Bundle-Description>${project.description}</Bundle-Description>
                         <Bundle-Vendor>Codice</Bundle-Vendor>
                         <Bundle-Version>${project.version}</Bundle-Version>
-                        <Bundle-Activator>org.codice.testify.actions.GenerateUUIDAction</Bundle-Activator>
+                        <Bundle-Activator>org.codice.testify.actions.generateuuid.GenerateUUIDAction</Bundle-Activator>
                         <Import-Package>
                             org.codice.testify.objects,
                             org.codice.testify.actions,

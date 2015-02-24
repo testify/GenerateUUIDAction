@@ -14,18 +14,15 @@
  *    limitations under the License.
  */
 
-package org.codice.testify.actions;
+package org.codice.testify.actions.generateuuid;
 
+import org.codice.testify.actions.Action;
 import org.codice.testify.objects.AllObjects;
 import org.codice.testify.objects.TestifyLogger;
 import org.codice.testify.objects.TestProperties;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.UUID;
 
 /**

@@ -1,5 +1,6 @@
-package org.codice.testify.actions;
+package org.codice.testify.actions.generateuuid;
 
+import org.codice.testify.actions.generateuuid.GenerateUUIDAction;
 import org.codice.testify.objects.AllObjects;
 import org.codice.testify.objects.TestProperties;
 import org.junit.Test;
