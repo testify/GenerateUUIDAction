@@ -55,7 +55,7 @@ public class GenerateUUIDAction implements BundleActivator, Action {
 
         // Add nonce to testProperties
         TestifyLogger.debug("Storing uuid value: " + uuid + " in property: " + s, this.getClass().getSimpleName());
-        testProperties.addProperty(s, uuid);
+        testProperties.replaceProperty(s, uuid);
         AllObjects.setObject("testProperties", testProperties);
     }
 
